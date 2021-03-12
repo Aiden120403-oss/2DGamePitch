@@ -48,6 +48,7 @@ AnimatorController:
   m_PrefabAsset: {fileID: 0}
   m_Name: Player
   serializedVersion: 5
+<<<<<<< HEAD
   m_AnimatorParameters:
   - m_Name: Walking
     m_Type: 4
@@ -55,6 +56,9 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
+=======
+  m_AnimatorParameters: []
+>>>>>>> 777f4387f2ee45759499cb0356a82590d1c84f7f
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
