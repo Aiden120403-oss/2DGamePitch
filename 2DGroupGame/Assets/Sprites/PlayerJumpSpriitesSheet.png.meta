@@ -112,8 +112,13 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
+<<<<<<< HEAD
       alignment: 9
       pivot: {x: 0.37403104, y: 0.28682184}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> b8b9739b487ddf67217c2e3c355555c01140f92f
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -133,8 +138,13 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
+<<<<<<< HEAD
       alignment: 9
       pivot: {x: 0.383721, y: 0.3449614}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> b8b9739b487ddf67217c2e3c355555c01140f92f
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -154,8 +164,13 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
+<<<<<<< HEAD
       alignment: 9
       pivot: {x: 0.52907014, y: 0.37403107}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> b8b9739b487ddf67217c2e3c355555c01140f92f
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,7 +191,11 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
+<<<<<<< HEAD
       pivot: {x: 0.5, y: 0.5}
+=======
+      pivot: {x: 0, y: 0}
+>>>>>>> b8b9739b487ddf67217c2e3c355555c01140f92f
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -197,7 +216,11 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
+<<<<<<< HEAD
       pivot: {x: 0.5, y: 0.5}
+=======
+      pivot: {x: 0, y: 0}
+>>>>>>> b8b9739b487ddf67217c2e3c355555c01140f92f
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -217,8 +240,13 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
+<<<<<<< HEAD
       alignment: 9
       pivot: {x: 0.3837211, y: 0.41279066}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> b8b9739b487ddf67217c2e3c355555c01140f92f
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

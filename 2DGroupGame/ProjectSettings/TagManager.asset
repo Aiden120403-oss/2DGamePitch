@@ -42,6 +42,7 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Background
+<<<<<<< HEAD
     uniqueID: 3031519253
     locked: 0
   - name: Ground
@@ -53,3 +54,31 @@ TagManager:
   - name: Enemy
     uniqueID: 2619076805
     locked: 0
+=======
+    uniqueID: 3149965781
+    locked: 0
+<<<<<<< HEAD
+  - name: Player
+    uniqueID: 2319625067
+    locked: 0
+  - name: Enemy
+    uniqueID: 2570166861
+    locked: 0
+  - name: Forground
+    uniqueID: 1476728075
+    locked: 0
+=======
+  - name: Forground
+    uniqueID: 1476728075
+    locked: 0
+  - name: Player
+    uniqueID: 2319625067
+    locked: 0
+<<<<<<< HEAD
+  - name: Enemy
+    uniqueID: 4149063101
+    locked: 0
+=======
+>>>>>>> 777f4387f2ee45759499cb0356a82590d1c84f7f
+>>>>>>> 0f5ff23eff63338a6e27c04226dea3668a53e36d
+>>>>>>> b8b9739b487ddf67217c2e3c355555c01140f92f

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:2DGroupGame/Assets/Scripts/GameSession.cs.meta
+guid: 8aa436a653e84b14db31accc6a5b0dce
+=======
+guid: 72a83c61f88104a25b325c58327605b3
+>>>>>>> b8b9739b487ddf67217c2e3c355555c01140f92f:2DGroupGame/Assets/Samples/Cinemachine/2.6.3/Cinemachine Example Scenes/Scenes/Anywhere Door/PlayerLookAt.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
