@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:2DGroupGame/Assets/Scripts/EnemyCode.cs.meta
-guid: 75a3c548cf2b4fc409e9f9f0af20a40f
-=======
 guid: e8fce4bd108661c4d9740aea3bc971ed
->>>>>>> b8b9739b487ddf67217c2e3c355555c01140f92f:2DGroupGame/Assets/Samples/Cinemachine/2.6.3/Cinemachine Example Scenes/Scenes/3rdPersonWithAimMode/ActivateOnKeypress.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

@@ -4,23 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-<<<<<<< HEAD
-    path: Assets/Scenes/MainMenu.unity
-    guid: 1c71e9b56efd7164cb249995d6336d46
-  - enabled: 1
-    path: Assets/Scenes/Sandbox.unity
-    guid: 354b7bdc8929ffd4080d3e01af14bcb6
-  - enabled: 1
-    path: Assets/Scenes/GameScene.unity
-    guid: 70638441a843c1c479ef6db2c085e925
-  - enabled: 1
-=======
-    path: Assets/Scenes/Sandbox.unity
-    guid: 354b7bdc8929ffd4080d3e01af14bcb6
-  - enabled: 1
->>>>>>> b8b9739b487ddf67217c2e3c355555c01140f92f
-    path: Assets/Scenes/GameOver.unity
-    guid: 723455418d55fd64fa897be79c112343
+  m_Scenes: []
   m_configObjects: {}
