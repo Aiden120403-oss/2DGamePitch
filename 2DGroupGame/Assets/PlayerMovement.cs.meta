@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:2DGroupGame/Assets/Scripts/AudioManager.cs.meta
+guid: bd6e55cc26dd1c547af085b7ad8de8b7
+=======
 guid: 1a095c1a04565e04ab84f0882b2de041
+>>>>>>> b8b9739b487ddf67217c2e3c355555c01140f92f:2DGroupGame/Assets/PlayerMovement.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

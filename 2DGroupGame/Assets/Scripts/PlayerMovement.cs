@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+<<<<<<< HEAD
+
+=======
+>>>>>>> b8b9739b487ddf67217c2e3c355555c01140f92f
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] float runSpeed = 5f;
@@ -61,8 +65,11 @@ public class PlayerMovement : MonoBehaviour
             Vector2 jumpVelocityToAdd = new Vector2(0f, jumpSpeed);
             myRigidBody.velocity += jumpVelocityToAdd;
         }
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> b8b9739b487ddf67217c2e3c355555c01140f92f
     }
 
     private void Die()
