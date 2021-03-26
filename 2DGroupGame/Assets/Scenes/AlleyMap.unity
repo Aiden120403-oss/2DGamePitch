@@ -26632,6 +26632,7 @@ GameObject:
   - component: {fileID: 1995618549}
   - component: {fileID: 1995618548}
   - component: {fileID: 1995618547}
+  - component: {fileID: 1995618550}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -26698,12 +26699,46 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1995618546}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 4.89, y: -1.46, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1995618550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995618546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowDebugText: 0
+  m_ShowCameraFrustum: 1
+  m_IgnoreTimeScale: 0
+  m_WorldUpOverride: {fileID: 0}
+  m_UpdateMethod: 2
+  m_BlendUpdateMethod: 1
+  m_DefaultBlend:
+    m_Style: 1
+    m_Time: 2
+    m_CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_CustomBlends: {fileID: 0}
+  m_CameraCutEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CameraActivatedEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &2057935029091992733
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26874,40 +26909,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2880831315077716909}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2880831315077716911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2880831315077716910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShowDebugText: 0
-  m_ShowCameraFrustum: 1
-  m_IgnoreTimeScale: 0
-  m_WorldUpOverride: {fileID: 0}
-  m_UpdateMethod: 2
-  m_BlendUpdateMethod: 1
-  m_DefaultBlend:
-    m_Style: 1
-    m_Time: 2
-    m_CustomCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  m_CustomBlends: {fileID: 0}
-  m_CameraCutEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_CameraActivatedEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &2880831315077716912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26917,6 +26918,89 @@ MonoBehaviour:
   m_GameObject: {fileID: 2880831315077716910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd6e55cc26dd1c547af085b7ad8de8b7, type: 3}
+  m_Script: {fileID: 11500000, guid: db77832e47047a4449b4e5bd747cfb3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  runSpeed: 5
+  jumpSpeed: 5
+  deathKick: {x: 10, y: 10}
+--- !u!4 &2880831315077716917 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2880831314696118943, guid: 5db6119cdca30ae46b03a5896c855b14,
+    type: 3}
+  m_PrefabInstance: {fileID: 2880831315077716909}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3406120556065194563
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3406120555480930690, guid: d3db2ee3372152a43b621831010ef87d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406120555480930690, guid: d3db2ee3372152a43b621831010ef87d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406120555480930690, guid: d3db2ee3372152a43b621831010ef87d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406120555480930690, guid: d3db2ee3372152a43b621831010ef87d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406120555480930690, guid: d3db2ee3372152a43b621831010ef87d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406120555480930690, guid: d3db2ee3372152a43b621831010ef87d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406120555480930690, guid: d3db2ee3372152a43b621831010ef87d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406120555480930690, guid: d3db2ee3372152a43b621831010ef87d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406120555480930690, guid: d3db2ee3372152a43b621831010ef87d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406120555480930690, guid: d3db2ee3372152a43b621831010ef87d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406120555480930690, guid: d3db2ee3372152a43b621831010ef87d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406120555480930691, guid: d3db2ee3372152a43b621831010ef87d,
+        type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 2880831315077716917}
+    - target: {fileID: 3406120555480930812, guid: d3db2ee3372152a43b621831010ef87d,
+        type: 3}
+      propertyPath: m_Name
+      value: CM vcam1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d3db2ee3372152a43b621831010ef87d, type: 3}
