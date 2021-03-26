@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/GameOverMenu.unity
+    guid: 933e7b67b152cc44ea84a0a0f525a534
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 1c71e9b56efd7164cb249995d6336d46
+  - enabled: 1
+    path: Assets/Scenes/Sandbox.unity
+    guid: 354b7bdc8929ffd4080d3e01af14bcb6
+  - enabled: 1
+    path: Assets/Scenes/ParkMap(Level 3) 1.unity
+    guid: a6b53b55cbda1f74ab0ee84a138f712b
+  - enabled: 1
+    path: Assets/Scenes/ParkMap(Level 3) 2.unity
+    guid: b3b80b52e2dae1b4c99a00edd27a6879
+  - enabled: 1
+    path: Assets/Scenes/ParkMap(Level 3) 3.unity
+    guid: 5b2755b5b45ea464b9a308a7f0eac919
   m_configObjects: {}

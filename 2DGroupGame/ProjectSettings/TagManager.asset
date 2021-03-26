@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Fire
   layers:
   - Default
   - TransparentFX
@@ -13,12 +15,12 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Background
+  - Foreground
+  - Interactables
+  - Hazards
+  - Player
+  - Enemy
   - 
   - 
   - 
@@ -44,7 +46,7 @@ TagManager:
   - name: Background
     uniqueID: 39741423
     locked: 0
-  - name: Forground
+  - name: Foreground
     uniqueID: 1548879959
     locked: 0
   - name: Player
@@ -52,4 +54,10 @@ TagManager:
     locked: 0
   - name: Enemy
     uniqueID: 2118339171
+    locked: 0
+  - name: interactables
+    uniqueID: 652884075
+    locked: 0
+  - name: Hazards
+    uniqueID: 4079468833
     locked: 0

@@ -7,7 +7,7 @@ public class TimeController : MonoBehaviour
 {
     public string levelToLoad;
     float currentTime = 0f;
-    float startingTime = 15f;
+    float startingTime = 20f;
 
     [SerializeField] Text countdownText;
 

@@ -23,7 +23,7 @@ public class CountdownController : MonoBehaviour
         currentTime -= 1 * Time.deltaTime;
         sceneStarterText.text = currentTime.ToString("f0");
 
-        if(currentTime <= 0)
+        if(currentTime <= 1)
         {
             currentTime = 0;
             Application.LoadLevel(levelToLoad);
